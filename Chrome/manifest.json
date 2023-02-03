@@ -7,7 +7,7 @@
          "64": "data/icons/64.png"
       },
       "default_popup": "data/popup/popup.html",
-      "default_title": "User-Agent Switcher"
+      "default_title": "User-Agent Converter"
    },
    "background": {
       "service_worker": "background.js"
@@ -21,7 +21,7 @@
          }
       }
    },
-   "description": "Switch between popular useragent strings from toolbar popup!",
+   "description": "Converter between useragent strings from toolbar popup!",
    "homepage_url": "https://www.downloadhub.cloud/2023/01/user-agent.html",
    "host_permissions": [ "*://*/*" ],
    "icons": {
@@ -32,7 +32,7 @@
       "64": "data/icons/64.png"
    },
    "manifest_version": 3,
-   "name": "User-Agent Switch for Edge",
+   "name": "User-Agent Converter",
    "permissions": [ "storage", "scripting", "declarativeNetRequest" ],
    "version": "0.3.0"
 }
